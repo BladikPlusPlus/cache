@@ -1,48 +1,35 @@
-#include <list>
+#include <vector>
+#include <algorithm>
+#include <iostream>
 
 struct page {
-    int index;
-    char data[60];
+  int index; // page index: 1, 2, ... n
+  char data[60]; // page data
 };
-
-void slow_get_page(int n, page *p);
-
-namespace {
-    std::list<page> cache;  // наш кеш — просто список
-}
-
-void get_page(int id, page *p) {
-    // 🔍 Шаг 1: Ищем страницу прямо здесь (вместо вызова find)
-    std::list<page>::iterator it;
-    for (it = cache.begin(); it != cache.end(); ++it) {
-        if (it->index == id) {
-            break;  // нашли — выходим из цикла, it уже указывает на нужную страницу
+int findOldIndexId(const std::vector<page>& cache) {
+    int oldindexid = 0;
+    for (int i = 0; i < 24; ++i) {
+        if (cache[i].index < cache[i + 1].index) {
+            oldindexid = i;
         }
     }
-
-    // ✅ Шаг 2: Если нашли (it не дошёл до конца)
-    if (it != cache.end()) {
-        cache.splice(cache.begin(), cache, it);  // перемещаем в начало
-        *p = cache.front();  // отдаём результат
-        return;
-    }
-
-    // ❌ Шаг 3: Не нашли — кеш полон?
-    if (cache.size() >= 64) {
-        cache.pop_back();  // удаляем самую старую
-    }
-
-    // ➕ Шаг 4: Создаём и загружаем новую
-    page new_page;
-    new_page.index = id;
-    slow_get_page(id, &new_page);
-    cache.push_front(new_page);  // кладём в начало
-
-    // 📤 Шаг 5: Отдаём результат
-    *p = cache.front();
+    return oldindexid;
 }
-
-
-
-
-
+void slow_get_page(int n, page *p);
+void get_page(int id, page *p) {
+    std::vector<page> cache;
+    cache.resize(24);
+    if (cache.size() == 24){
+        std::cout << "Cache is full!" << std::endl;
+        if (cache[id].index == p->index) {
+            cache[id].index = p->index;
+        }
+        else {
+            cache[findOldIndexId(cache)] = *p;
+        }
+    }
+    else {
+        cache.push_back(*p);
+    }
+}
+    
