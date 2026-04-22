@@ -32,4 +32,3 @@ void get_page(int id, page *p) {
         cache.push_back(*p);
     }
 }
-    
