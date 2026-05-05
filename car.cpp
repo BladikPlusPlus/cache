@@ -32,7 +32,6 @@ public:
             }
         }
 
-        slow_get_page(id, p);
 
         if (n1 + n2 == max_pages) {
             if (n1 >= priority) {
