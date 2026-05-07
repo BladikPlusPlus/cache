@@ -1,0 +1,206 @@
+﻿  MyForm.cpp
+  MyForm1.cpp
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(114,69): error C2039: "showSettings": не является членом "pingpong::MyForm".
+  (компиляция исходного файла "MyForm.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(15,19):
+       см. объявление "pingpong::MyForm"
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(114,69): error C2065: showSettings: необъявленный идентификатор
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(114,53): error C3924: ошибка в аргументе #2 вызова конструктора делегата "System::EventHandler":
+  (компиляция исходного файла "MyForm.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(114,53):
+      требуется указатель на функцию-член
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(138,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(141,36): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(142,28): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(177,79): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(182,9): error C2653: pinpong: не является именем класса или пространства имен
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(182,29): error C2601: ShowSettings: недопустимые локальные определения функций
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(196,83): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(198,85): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(199,24): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(214,29): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(224,30): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(242,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(243,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(245,31): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(246,23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(183,5): error C2065: timer: необъявленный идентификатор
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(184,5): error C2355: "this": может указываться только в нестатических членах-функциях или инициализаторах нестатических членов данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(185,5): error C2065: SettingsForm: необъявленный идентификатор
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(185,19): error C2065: settings: необъявленный идентификатор
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(185,36): error C2061: синтаксическая ошибка: идентификатор "SettingsForm"
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(186,5): error C2065: settings: необъявленный идентификатор
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(186,23): error C2355: "this": может указываться только в нестатических членах-функциях или инициализаторах нестатических членов данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(255,8): error C2535: System::Drawing::Color pingpong::MyForm1::getPadleColor(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "MyForm1.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(254,8):
+       см. объявление "pingpong::MyForm1::getPadleColor"
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(104,70): error C2039: "label3_Click": не является членом "pingpong::MyForm1".
+  (компиляция исходного файла "MyForm1.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(15,19):
+       см. объявление "pingpong::MyForm1"
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(104,70): error C2065: label3_Click: необъявленный идентификатор
+  (компиляция исходного файла "MyForm1.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(104,53): error C3924: ошибка в аргументе #2 вызова конструктора делегата "System::EventHandler":
+  (компиляция исходного файла "MyForm1.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(104,53):
+      требуется указатель на функцию-член
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(123,70): error C2039: "label5_Click": не является членом "pingpong::MyForm1".
+  (компиляция исходного файла "MyForm1.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(15,19):
+       см. объявление "pingpong::MyForm1"
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(123,70): error C2065: label5_Click: необъявленный идентификатор
+  (компиляция исходного файла "MyForm1.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(123,53): error C3924: ошибка в аргументе #2 вызова конструктора делегата "System::EventHandler":
+  (компиляция исходного файла "MyForm1.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(123,53):
+      требуется указатель на функцию-член
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(211,61): error C2039: "MyForm1_Load": не является членом "pingpong::MyForm1".
+  (компиляция исходного файла "MyForm1.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(15,19):
+       см. объявление "pingpong::MyForm1"
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(211,61): error C2065: MyForm1_Load: необъявленный идентификатор
+  (компиляция исходного файла "MyForm1.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(211,44): error C3924: ошибка в аргументе #2 вызова конструктора делегата "System::EventHandler":
+  (компиляция исходного файла "MyForm1.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm1.h(211,44):
+      требуется указатель на функцию-член
+  
+  Source.cpp
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(114,69): error C2039: "showSettings": не является членом "pingpong::MyForm".
+  (компиляция исходного файла "Source.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(15,19):
+       см. объявление "pingpong::MyForm"
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(114,69): error C2065: showSettings: необъявленный идентификатор
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(114,53): error C3924: ошибка в аргументе #2 вызова конструктора делегата "System::EventHandler":
+  (компиляция исходного файла "Source.cpp")
+      C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(114,53):
+      требуется указатель на функцию-член
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(138,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(141,36): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(142,28): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(177,79): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(182,9): error C2653: pinpong: не является именем класса или пространства имен
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(182,29): error C2601: ShowSettings: недопустимые локальные определения функций
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(196,83): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(198,85): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(199,24): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(214,29): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(224,30): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(242,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(243,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(245,31): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(246,23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(183,5): error C2065: timer: необъявленный идентификатор
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(184,5): error C2355: "this": может указываться только в нестатических членах-функциях или инициализаторах нестатических членов данных
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(185,5): error C2065: SettingsForm: необъявленный идентификатор
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(185,19): error C2065: settings: необъявленный идентификатор
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(185,36): error C2061: синтаксическая ошибка: идентификатор "SettingsForm"
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(186,5): error C2065: settings: необъявленный идентификатор
+  (компиляция исходного файла "Source.cpp")
+  
+C:\Users\Student\Desktop\levanov\ping_pong\MyForm.h(186,23): error C2355: "this": может указываться только в нестатических членах-функциях или инициализаторах нестатических членов данных
+  (компиляция исходного файла "Source.cpp")
+  
+  Создание кода...

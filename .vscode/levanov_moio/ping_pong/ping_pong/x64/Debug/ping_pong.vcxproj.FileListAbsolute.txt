@@ -1,0 +1,7 @@
+C:\Users\Student\Desktop\cod\vs22\ping\ping_pong\ping_pong\x64\Debug\ping_pong.vcxproj.AssemblyReference.cache
+C:\Users\Student\Desktop\cod\vs22\ping\ping_pong\ping_pong\x64\Debug\pingpong.MyForm.resources
+C:\Users\Student\Desktop\cod\vs22\ping\ping_pong\ping_pong\x64\Debug\ping_pong.vcxproj.GenerateResource.cache
+C:\Users\Student\Desktop\cod\vs22\ping_bloha\ping_pong\ping_pong\x64\Debug\ping_pong.vcxproj.AssemblyReference.cache
+C:\Users\Student\Desktop\cod\vs22\ping_bloha\ping_pong\ping_pong\x64\Debug\pingpong.MyForm.resources
+C:\Users\Student\Desktop\cod\vs22\ping_bloha\ping_pong\ping_pong\x64\Debug\ping_pong.vcxproj.GenerateResource.cache
+C:\Users\Student\Desktop\cod\vs22\ping_bloha\ping_pong\ping_pong\x64\Debug\pingpong.MyForm1.resources
