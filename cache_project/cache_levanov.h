@@ -17,17 +17,7 @@ class CCashe {
     bool reference_bits[24];
     
     int n1 = 0, n2 = 0, n3 = 0, n4 = 0;
-    
-    int findOldIndexId() {
-        int oldindexid = 0;
-        for (int i = 0; i < n1 - 1; ++i) {
-            if (page_1[i] < page_1[i + 1]) {
-                oldindexid = i;
-            }
-        }
-        return oldindexid;
-    }
-
+  
 public:
     bool get_page(int id, page *p);
 };
