@@ -10,7 +10,7 @@ struct page {
 void slow_get_page(int n, page *p);
 
 class CCashe {
-    private:
+private:
     int max_pages = 24;
     int priority = 0;
     int page_1[24], page_2[24], page_3[24], page_4[24];
